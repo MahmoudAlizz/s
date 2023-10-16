@@ -1,0 +1,43 @@
+.td {
+  text-decoration: none;
+}
+.input-search {
+  background-color: transparent;
+  border: 0;
+}
+.indicator {
+  background: "yellow";
+  border-radius: "100%";
+  width: "12px";
+  height: "12px";
+}
+.control {
+  background: "none";
+  border: "none";
+  box-shadow: "none";
+}
+.menu-item,
+.menu-item:hover {
+  background-color: transparent;
+  cursor: auto;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-250%);
+  }
+}
+.textAnimation {
+  overflow: hidden;
+}
+.parentAnimation {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.parentAnimation:hover .textAnimation {
+  animation: animate1 4s linear infinite;
+  overflow: visible;
+}

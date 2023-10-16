@@ -1,0 +1,23 @@
+.td {
+  text-decoration: none;
+}
+.input-search {
+  background-color: transparent;
+  border: 0;
+}
+.indicator {
+  background: "yellow";
+  border-radius: "100%";
+  width: "12px";
+  height: "12px";
+}
+.control {
+  background: "none";
+  border: "none";
+  box-shadow: "none";
+}
+.menu-item,
+.menu-item:hover {
+  background-color: transparent;
+  cursor: auto;
+}
